@@ -10,29 +10,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin-bottom: 32px;
   padding-top: 10px;
 }
 
 .fruits {
   display: flex;
-  align-items:first baseline;
+  /* align-items:first baseline; */
   gap: 52px;
-  margin: 10px;
-  justify-content:space-evenly;
+  /* margin: 10px; */
+  justify-content:center;
 }
 .barberry,
 .chilli,
 .pepper,
 .saffron {
-  display: flex;
-  width: 200px;
-  flex-wrap: wrap;
+  /* display: flex; */
+  max-width: 200px;
+  /* flex-wrap: wrap; */
 }
 
-.text {
+body {
   text-align: center;
 }
 
@@ -48,3 +48,23 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+} */
